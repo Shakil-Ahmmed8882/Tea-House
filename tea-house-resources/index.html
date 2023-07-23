@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeaHouse</title>
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- Google Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+    <!-- Daisy Ui & Tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <!-- Body -->
+  <body class="font-manrope">
+    <header class="container mx-auto">
+      <div class="hero h-[90vh] bg-base-200">
+        <div class="hero-content flex-col-reverse md:pt-0 lg:flex-row">
+          <div class="mt-6 lg-mt-0 space-y-3">
+            <h1 class="text-2xl lg:text-5xl font-bold leading-[1.2]">
+              It's good tea time at The Tea House
+            </h1>
+            <p class=" text-[14px] md:text-[16px] text-gray-700 lg:w-[400px]">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button
+              class="btn flex items-center flex-row-reverse bg-[#FF8938] text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none">
+                <path
+                  d="M4.5 19.7788L19.5 4.77881M19.5 4.77881H8.25M19.5 4.77881V16.0288"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              Explore More
+            </button>
+          </div>
+          <article class="flex flex-col">
+                <div>
+                <img
+                  src="/tea-house-resources/images/banner.png"
+                  class="max-w-sm rounded-lg" />
+              </div>
+              <div class="flex items-center gap-2 bg-white -mt-[50px] p-2 w-[250px] rounded shadow">
+                    <i class="fa-solid fa-star text-yellow-500"></i>
+                    <div>
+                          <h3>5.00</h3>
+                          <p>Trust Pilot Ratings</p>         
+                    </div>
+              </div>
+          </article>
+      </div>
+    </header>
+    <main>
+      <section class="container mx-auto my-20 p-3 md:text-center space-y-1">
+
+            <h1 class="text-xl lg:text-4xl font-bold leading-[1.2]">Our Featured Products</h1>
+            <p class=" max-w-3xl  mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+
+            <article class="grid gap-10 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                  <div class="card  bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/tea-house-resources/images/tea-1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Milk Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card  bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/tea-house-resources/images/tea-2.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Milk Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card  bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/tea-house-resources/images/tea-3.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Milk Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+
+                          </div>
+                        </div>
+                      </div>
+                  <div class="card  bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="/tea-house-resources/images/tea-4.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Milk Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+
+                          </div>
+                        </div>
+                      </div>
+            </article>
+      </section>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
