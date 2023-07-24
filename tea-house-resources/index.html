@@ -34,10 +34,10 @@
   <!-- Body -->
   <body class="font-manrope">
     <header class="container mx-auto">
-      <div class="hero h-[90vh] bg-base-200">
-        <div class="hero-content flex-col-reverse md:pt-0 lg:flex-row">
-          <div class="mt-6 lg-mt-0 space-y-3">
-            <h1 class="text-2xl lg:text-5xl font-bold leading-[1.2]">
+      <div class="hero bg-base-200 px-3 lg:px-[200px] pt-16">
+        <div class="hero-content gap-5 flex-col-reverse md:pt-0 lg:flex-row">
+          <div class="mt-6 lg-mt-0 space-y-3 flex-1">
+            <h1 class="text-2xl lg:text-5xl font-bold leading-[1.4]">
               It's good tea time at The Tea House
             </h1>
             <p class=" text-[14px] md:text-[16px] text-gray-700 lg:w-[400px]">
@@ -62,13 +62,13 @@
               Explore More
             </button>
           </div>
-          <article class="flex flex-col">
+          <article class="flex flex-col flex-1">
                 <div>
                 <img
                   src="/tea-house-resources/images/banner.png"
-                  class="max-w-sm rounded-lg" />
+                  class="w-full rounded-lg" />
               </div>
-              <div class="flex items-center gap-2 bg-white -mt-[50px] p-2 w-[250px] rounded shadow">
+              <div class="flex items-center gap-2 bg-white -mt-[50px] p-2 w-full lg:w-[250px] rounded shadow">
                     <i class="fa-solid fa-star text-yellow-500"></i>
                     <div>
                           <h3>5.00</h3>
@@ -81,11 +81,11 @@
     <main>
       <section class="container mx-auto my-20 p-3 md:text-center space-y-1">
 
-            <h1 class="text-xl lg:text-4xl font-bold leading-[1.2]">Our Featured Products</h1>
-            <p class=" max-w-3xl  mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <h1 class="text-xl lg:text-4xl mb-3 font-bold leading-[1.2]">Our Featured Products</h1>
+            <p class=" max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
 
 
-            <article class="grid gap-10 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <article class="grid pt-8 gap-10 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                   <div class="card  bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
                           <img src="/tea-house-resources/images/tea-1.png" alt="Shoes" class="rounded-xl" />
@@ -136,6 +136,27 @@
                       </div>
             </article>
       </section>
+      <!-- grid tea -->
+      <section class="container mx-auto my-20 space-y-1 flex flex-col lg:flex-row gap-8 px-3 :g:px-8">
+        <div class="flex-1 gap-8 grid grid-cols-1 lg:grid-cols-2">
+          <div class="bg-gradient-to-r from-red-50 to-pink-100 h-40 rounded"></div>
+          <div class="row-span-2 flex justify-center bg-[#E6A6231A] p-3 rounded-lg"><img src="./images/fresh-1.png" alt=""></div>
+          <div class="row-span-2 flex justify-center bg-[#5776391A] p-3 rounded-lg"><img src="./images/fresh-2.png" alt=""></div>
+          <div class="bg-gradient-to-r from-red-50 to-pink-100 h-40 rounded"></div>
+        </div>
+        <!--  -->
+        <div class="flex-1 space-y-5 px-3 lg:px-16">
+          <h1 class="text-xl lg:text-4xl mb-3 font-bold leading-[1.2]">Great Tea, Freshly <br> Presented</h1>
+          <p class=" max-w-3xl mx-auto">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan. </p>
+
+          <h4 class="font-extrabold" >Unique Taste</h4>
+          <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          <h4  class="font-extrabold">Premium Quality</h4>
+          <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+
+      </section>
+
 
     </main>
     <footer></footer>
